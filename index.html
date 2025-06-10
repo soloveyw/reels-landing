@@ -1,36 +1,135 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reels-маркетинг</title>
+  <title>Reels-маркетинг для экспертов</title>
   <style>
     body {
-      font-family: sans-serif;
       margin: 0;
-      padding: 40px;
-      background: #f9f9f9;
-      color: #111;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdfdfd;
+      color: #1a1a1a;
+    }
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #f7f2f1, #fff);
+      border-bottom: 1px solid #eee;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #C89FA3;
+      margin-bottom: 0.5em;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #444;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .section {
+      max-width: 960px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5em;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 0.5em 0;
+      padding-left: 1.2em;
+      position: relative;
+    }
+    li::before {
+      content: '✅';
+      position: absolute;
+      left: 0;
     }
     .mockup {
+      background: white;
       max-width: 400px;
       margin: 40px auto;
       padding: 20px;
-      background: white;
       border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     }
-    h1 {
+    .mockup p {
+      margin: 0.5em 0;
+    }
+    .cta {
       text-align: center;
-      color: #C89FA3;
+      padding: 80px 20px;
+      background: #111;
+      color: white;
+      border-top: 1px solid #333;
+    }
+    .cta button {
+      padding: 16px 40px;
+      font-size: 1.1rem;
+      background: #C89FA3;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .cta button:hover {
+      background: #a4707d;
     }
   </style>
 </head>
 <body>
-  <h1>Reels-видео, которые продают</h1>
-  <div class="mockup">
-    <strong>@coach_julia</strong>
-    <p>«Я выложила третий ролик, и мне написали в директ 5 новых клиентов!»</p>
+
+  <header>
+    <h1>Reels → Доверие → Продажи</h1>
+    <p>Создаю Reels-воронки для экспертов: от смысла до заявки. Доверие без давления.</p>
+  </header>
+
+  <div class="section">
+    <h2>Почему выбирают меня</h2>
+    <ul>
+      <li>Провожу интервью, вытаскиваю настоящие смыслы</li>
+      <li>Создаю серию Reels по воронке: боль → решение → доверие</li>
+      <li>Отклики появляются уже на 3–4 ролике</li>
+    </ul>
   </div>
+
+  <div class="section mockup">
+    <strong>@coach_irina</strong>
+    <p>«После Reels мне впервые написали “Я хочу у вас консультацию” без прогрева в сторис»</p>
+  </div>
+
+  <div class="section">
+    <h2>Что входит</h2>
+    <ul>
+      <li>Сценарии на основе интервью</li>
+      <li>Пошаговая структура Hook–Story–CTA</li>
+      <li>Монтаж и визуальная упаковка</li>
+      <li>Рекомендации по публикации и аналитика</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Тарифы</h2>
+    <ul>
+      <li><strong>Старт:</strong> 3 Reels — 9000 ₽</li>
+      <li><strong>Продвинутый:</strong> 5 Reels + аналитика — 15000 ₽</li>
+      <li><strong>Премиум:</strong> 8 Reels + консультация — 23000 ₽</li>
+    </ul>
+  </div>
+
+  <div class="cta">
+    <h2>Запишитесь на мини-разбор</h2>
+    <p>Оставьте заявку — я подскажу, где вы теряете заявки в Reels</p>
+    <button>Оставить заявку</button>
+  </div>
+
 </body>
 </html>
